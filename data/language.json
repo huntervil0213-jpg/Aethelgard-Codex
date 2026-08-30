@@ -1,0 +1,51 @@
+{
+  "language": {
+    "id": "aethelgard-high-elven",
+    "name": "High Elven Court Speech",
+    "short_name": "High Elven",
+    "status": "development",
+    "purpose": "Original constructed language for formal Elven speech in Kael-Vossen.",
+    "design_rules": [
+      "Vocabulary must not be built by repeatedly recycling a small set of fantasy syllables.",
+      "Words should not accidentally resemble ordinary English/Common words when a distinct form is possible.",
+      "Romanization is the manuscript-facing representation; the native script is separately defined.",
+      "Meaning should remain understandable through context even when a reader does not know the language.",
+      "Formal court speech, military speech, casual speech, insults, and ritual language may use different registers.",
+      "Existing manuscript meanings are preserved when the database expands the language."
+    ],
+    "alphabet": {
+      "status": "development",
+      "name": "Veyrath",
+      "principle": "A flowing angular script designed for inscription on living wood, crystal, metal, and ceremonial cloth.",
+      "romanization": "Latin characters are used for manuscript typing and translator data until the native glyph set is finalized.",
+      "note": "Glyph shapes are not yet locked; do not treat Roman letters as the in-world alphabet."
+    },
+    "phonology": {
+      "status": "development",
+      "vowels": ["a", "e", "i", "o", "u", "ae", "ei", "ou"],
+      "consonants": ["v", "z", "zh", "th", "dh", "q", "x", "kh", "r", "l", "m", "n", "s", "sh", "t", "d", "k", "g", "f", "h", "y", "w"],
+      "phonotactic_notes": [
+        "Prefer varied consonant clusters and vowel patterns rather than repeated templates.",
+        "Formal words may contain longer internal clusters; casual speech may shorten them.",
+        "Avoid using English-looking standalone words as core vocabulary."
+      ]
+    },
+    "grammar": {
+      "status": "development",
+      "default_word_order": "verb-subject-object in formal declarations; flexible order in conversation",
+      "notes": [
+        "Formal speech favors explicit titles and evidential precision.",
+        "Commands may omit the subject.",
+        "Possession and rank should be represented through dedicated grammatical particles rather than English-style apostrophe construction.",
+        "Questions use rising syntax and interrogative particles rather than relying only on English word order."
+      ]
+    },
+    "vocabulary": [],
+    "phrases": [],
+    "translator": {
+      "common_to_high_elven": {},
+      "high_elven_to_common": {},
+      "notes": "Only confirmed or deliberately introduced mappings should be added here."
+    }
+  }
+}
