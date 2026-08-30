@@ -1,0 +1,28 @@
+{
+  "project": "Aethelgard",
+  "status": "active",
+  "rules": [
+    "Preserve plot, lore, reveals, outcomes, and established character identities.",
+    "Do not silently replace established terminology without recording the change.",
+    "Skull-Veil is the established nickname for the Elven faction; the hostile creatures from the sky require their own separate creature name.",
+    "High Elven language used by Kael-Vossen's court must remain original, varied, and translator-friendly.",
+    "Lyra learned High Elven from archives and treaties and is therefore capable but somewhat rusty when speaking it spontaneously.",
+    "High Elven dialogue should appear naturally and substantially when the scene involves Elven speakers; it should not replace every line of readable dialogue.",
+    "The commander and Kael-Vossen citizens should retain believable hatred and fear toward House Valerius and toward outsiders associated with Abel where the manuscript establishes that reaction.",
+    "The hostile sky creatures must remain frightening and distinct from the Skull-Veil Elves.",
+    "D&D terminology and fantasy races/creatures can inform the world, but Aethelgard's specific lore and descriptions remain original.",
+    "Avoid overusing a single generic term such as ledger when a contextually accurate established alternative exists."
+  ],
+  "editing_checks": [
+    "plot integrity",
+    "continuity",
+    "character voice",
+    "pacing",
+    "dialogue",
+    "worldbuilding consistency",
+    "repetition control",
+    "D&D terminology",
+    "constructed-language consistency",
+    "translator compatibility"
+  ]
+}
