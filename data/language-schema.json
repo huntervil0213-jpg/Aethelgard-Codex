@@ -1,0 +1,23 @@
+{
+  "purpose":"Machine-readable specification for all future Aethelgard language entries.",
+  "entry_fields":["id","language","word","pronunciation","part_of_speech","meaning","register","etymology","inflections","examples","common_equivalent","status","canon_source","notes"],
+  "registers":["court","military","diplomatic","ritual","casual","hostile","poetic","scholarly","mercantile","domestic","ceremonial"],
+  "translation_rules":[
+    "Do not invent a translation for an unknown canonical word.",
+    "Prefer phrase-level mappings when English/Common has no exact one-word equivalent.",
+    "Preserve register when translating.",
+    "Do not flatten culturally specific concepts into generic English when an explanatory gloss is needed.",
+    "Keep romanization stable once canonized.",
+    "Maintain separate native-script and romanized fields when the Veyrath glyph system is finalized."
+  ],
+  "quality_checks":[
+    "Does the word have a unique semantic identity?",
+    "Does it fit the phonology?",
+    "Does it avoid accidental Common resemblance?",
+    "Does its grammatical role make sense?",
+    "Does it belong to a defined register?",
+    "Does it duplicate an existing word unnecessarily?",
+    "Can it be translated deterministically?",
+    "Does it create useful vocabulary diversity?"
+  ]
+}
