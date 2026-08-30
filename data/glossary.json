@@ -1,0 +1,12 @@
+{
+  "schema_version":"1.0",
+  "categories": {
+    "religion":[{"term":"Solis","definition":"Deity invoked by Elara; appears in oaths and exclamations.","status":"canon"}],
+    "politics":[{"term":"bloodright","definition":"Inherited political status associated with a ruling bloodline.","status":"canon"},{"term":"High-Reach","definition":"Royal/Spire-controlled region associated with House Valerius.","status":"canon"}],
+    "energy":[{"term":"Flux","definition":"Magical energy used throughout Aethelgard's industrial and technological systems.","status":"canon"},{"term":"Resonance","definition":"A bloodline-linked magical capacity.","status":"canon"}],
+    "technology":[{"term":"Ley-Tech","definition":"Technology that conducts or manipulates magical currents.","status":"canon"},{"term":"Iron-Vein filtration networks","definition":"Industrial filtration infrastructure associated with Flux extraction.","status":"canon"}],
+    "infrastructure":[{"term":"Ley-Shield","definition":"Kael-Vossen's massive protective magical barrier.","status":"canon"},{"term":"Monolith Stabilization Arrays","definition":"Large-scale arrays associated with stabilizing magical and reality currents.","status":"canon"},{"term":"root-pulse","definition":"Living magical current carried through ancient roots.","status":"canon"}],
+    "factions":[{"term":"Skull-Veil","definition":"Nickname for the feared Elven faction. It does not refer to the sky-fissure creatures.","status":"canon"},{"term":"Silt Guard","definition":"Military organization associated with Kaelen's background.","status":"canon"},{"term":"Spire","definition":"Vertical imperial power structure associated with House Valerius.","status":"canon"}],
+    "world_events":[{"term":"violet reality leak","definition":"A dangerous tear in reality spreading across the sky beyond the protected basin.","status":"canon"},{"term":"sky-fissure","definition":"The visible rupture in reality from which hostile creatures emerge.","status":"canon"}]
+  }
+}
