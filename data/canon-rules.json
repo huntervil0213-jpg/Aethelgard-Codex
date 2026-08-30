@@ -1,28 +1,32 @@
 {
-  "project": "Aethelgard",
-  "status": "active",
-  "rules": [
-    "Preserve plot, lore, reveals, outcomes, and established character identities.",
-    "Do not silently replace established terminology without recording the change.",
-    "Skull-Veil is the established nickname for the Elven faction; the hostile creatures from the sky require their own separate creature name.",
-    "High Elven language used by Kael-Vossen's court must remain original, varied, and translator-friendly.",
-    "Lyra learned High Elven from archives and treaties and is therefore capable but somewhat rusty when speaking it spontaneously.",
-    "High Elven dialogue should appear naturally and substantially when the scene involves Elven speakers; it should not replace every line of readable dialogue.",
-    "The commander and Kael-Vossen citizens should retain believable hatred and fear toward House Valerius and toward outsiders associated with Abel where the manuscript establishes that reaction.",
-    "The hostile sky creatures must remain frightening and distinct from the Skull-Veil Elves.",
-    "D&D terminology and fantasy races/creatures can inform the world, but Aethelgard's specific lore and descriptions remain original.",
-    "Avoid overusing a single generic term such as ledger when a contextually accurate established alternative exists."
+  "project":"Aethelgard",
+  "status":"active",
+  "version":"2.0",
+  "rules":[
+    {"id":1,"name":"Zero Plot Changes","rule":"Preserve plot, lore, reveals, outcomes, and established character identities."},
+    {"id":2,"name":"No Unauthorized Cutting","rule":"Do not remove established material simply to simplify a database entry."},
+    {"id":3,"name":"Continuity","rule":"Track time, locations, injuries, equipment, companions, knowledge, relationships, and cause-and-effect."},
+    {"id":4,"name":"Character Integrity","rule":"Preserve established motivations, personality, voice, history, relationships, and emotional continuity."},
+    {"id":5,"name":"Human Prose","rule":"Manuscript-facing material should feel authored, varied, emotionally grounded, and natural rather than mechanically generated."},
+    {"id":6,"name":"Repetition Control","rule":"Avoid overusing words, sentence structures, transitions, metaphors, and generic labels; replace only when context permits."},
+    {"id":7,"name":"Ledger Control","rule":"Do not overuse ledger when archive volume, book, record, folio, register, codex, document, or another established contextually correct term is more natural."},
+    {"id":8,"name":"D&D Integration","rule":"D&D races, creatures, terminology, magic concepts, and language categories may inform the framework, but Aethelgard-specific implementations remain original."},
+    {"id":9,"name":"Skull-Veil Identity","rule":"Skull-Veil is the nickname for the feared Elven faction. It is never the name of the sky-fissure creatures."},
+    {"id":10,"name":"Creature Separation","rule":"The hostile creatures from the violet fissure require a distinct species identity and terminology."},
+    {"id":11,"name":"Constructed Language","rule":"High Elven must have consistent grammar, phonology, vocabulary, register, romanization, and translation mappings."},
+    {"id":12,"name":"Language Variety","rule":"Do not repeatedly recycle a small set of roots or endings. Vocabulary must become genuinely large and structurally varied."},
+    {"id":13,"name":"Language Distinction","rule":"High Elven vocabulary should not sound like ordinary English/Common. Avoid accidental Common-looking words where a distinct form is possible."},
+    {"id":14,"name":"Language Frequency","rule":"Use High Elven substantially when Elven speakers naturally would, while preserving reader comprehension through context and selective translation."},
+    {"id":15,"name":"Lyra Fluency","rule":"Lyra learned High Elven through archival texts and treaties but did not grow up speaking it. Her spontaneous speech can show hesitation, uncertainty, and occasional self-correction."},
+    {"id":16,"name":"Native Fluency","rule":"Native Kael-Vossen speakers should use idiom, register, rhythm, and cultural assumptions naturally."},
+    {"id":17,"name":"Translator Compatibility","rule":"Every approved vocabulary item receives a stable meaning and translator mapping. Unknown forms are flagged rather than guessed."},
+    {"id":18,"name":"Contextual Translation","rule":"Do not translate every Elven sentence mechanically. Meaning may be communicated by action, response, and surrounding dialogue."},
+    {"id":19,"name":"Register","rule":"Maintain separate vocabulary and constructions for court, military, diplomatic, ritual, casual, and hostile speech."},
+    {"id":20,"name":"Abel's Bloodline","rule":"House Valerius carries historical responsibility in Kael-Vossen. Hatred and fear toward Abel and his companions must remain believable rather than disappearing immediately."},
+    {"id":21,"name":"Abel's Guilt","rule":"When confronted with the consequences of his family's actions, Abel's guilt should remain emotionally substantial while preserving his individual agency and established character."},
+    {"id":22,"name":"Elara's Fear","rule":"Threats to Abel can produce intense concern and panic in Elara when consistent with the scene, without erasing her established strength or agency."},
+    {"id":23,"name":"Development Labels","rule":"New material not established by the manuscript is marked development until deliberately canonized."},
+    {"id":24,"name":"No False Canon","rule":"Do not present invented details as established story facts without a canon or development marker."}
   ],
-  "editing_checks": [
-    "plot integrity",
-    "continuity",
-    "character voice",
-    "pacing",
-    "dialogue",
-    "worldbuilding consistency",
-    "repetition control",
-    "D&D terminology",
-    "constructed-language consistency",
-    "translator compatibility"
-  ]
+  "editing_checks":["plot integrity","continuity","character voice","emotional continuity","pacing","dialogue","worldbuilding consistency","repetition control","D&D terminology","constructed-language consistency","translator compatibility","canon status"]
 }
