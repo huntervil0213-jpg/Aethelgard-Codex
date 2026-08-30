@@ -6,28 +6,30 @@
     "status": "development",
     "purpose": "Original constructed language for formal Elven speech in Kael-Vossen.",
     "design_rules": [
-      "Vocabulary must not be built by repeatedly recycling a small set of fantasy syllables.",
-      "Words should not accidentally resemble ordinary English/Common words when a distinct form is possible.",
+      "Vocabulary must be broad and genuinely varied rather than recycling a small set of fantasy syllables.",
+      "Canonical words must remain clearly distinct from ordinary English/Common vocabulary.",
       "Romanization is the manuscript-facing representation; the native script is separately defined.",
       "Meaning should remain understandable through context even when a reader does not know the language.",
-      "Formal court speech, military speech, casual speech, insults, and ritual language may use different registers.",
-      "Existing manuscript meanings are preserved when the database expands the language."
+      "Formal court speech, military speech, casual speech, insults, and ritual language use distinct registers.",
+      "Existing manuscript meanings are preserved when the database expands the language.",
+      "Lyra learned the language from archival texts and treaties but never spoke it regularly; her fluency is therefore literary and rusty rather than native."
     ],
     "alphabet": {
       "status": "development",
       "name": "Veyrath",
       "principle": "A flowing angular script designed for inscription on living wood, crystal, metal, and ceremonial cloth.",
-      "romanization": "Latin characters are used for manuscript typing and translator data until the native glyph set is finalized.",
-      "note": "Glyph shapes are not yet locked; do not treat Roman letters as the in-world alphabet."
+      "romanization": "Latin characters are used only as a practical manuscript and translator representation until the native glyph set is finalized.",
+      "note": "Roman letters are not the in-world alphabet."
     },
     "phonology": {
       "status": "development",
-      "vowels": ["a", "e", "i", "o", "u", "ae", "ei", "ou"],
+      "vowels": ["a", "e", "i", "o", "u", "ae", "ei", "ou", "ia", "oe", "ui"],
       "consonants": ["v", "z", "zh", "th", "dh", "q", "x", "kh", "r", "l", "m", "n", "s", "sh", "t", "d", "k", "g", "f", "h", "y", "w"],
       "phonotactic_notes": [
-        "Prefer varied consonant clusters and vowel patterns rather than repeated templates.",
-        "Formal words may contain longer internal clusters; casual speech may shorten them.",
-        "Avoid using English-looking standalone words as core vocabulary."
+        "Use varied roots, syllable lengths, and consonant clusters.",
+        "Avoid repeatedly building words from the same visible fragments.",
+        "Avoid accidental English/Common resemblance wherever a distinct form is possible.",
+        "Court forms may be longer and more precise; battlefield commands may be clipped."
       ]
     },
     "grammar": {
@@ -36,16 +38,58 @@
       "notes": [
         "Formal speech favors explicit titles and evidential precision.",
         "Commands may omit the subject.",
-        "Possession and rank should be represented through dedicated grammatical particles rather than English-style apostrophe construction.",
-        "Questions use rising syntax and interrogative particles rather than relying only on English word order."
+        "Possession and rank use dedicated grammatical particles rather than English-style apostrophe construction.",
+        "Questions use interrogative particles and syntax rather than relying only on English word order.",
+        "Different registers may alter word order, contractions, and honorific usage."
       ]
     },
-    "vocabulary": [],
+    "vocabulary": [
+      {"id":"ELV-001","word":"vaelor","meaning":"sovereign authority","register":"court"},
+      {"id":"ELV-002","word":"qirath","meaning":"border threshold","register":"military"},
+      {"id":"ELV-003","word":"zhavaen","meaning":"exile; one cast beyond lawful belonging","register":"court"},
+      {"id":"ELV-004","word":"thaeqir","meaning":"vanguard commander","register":"military"},
+      {"id":"ELV-005","word":"ulveth","meaning":"oath-bound protector","register":"ritual"},
+      {"id":"ELV-006","word":"xorethi","meaning":"outsider held under armed suspicion","register":"military"},
+      {"id":"ELV-007","word":"maeruq","meaning":"bloodline; inherited blood-right","register":"court"},
+      {"id":"ELV-008","word":"selyr","meaning":"sacred living grove","register":"ritual"},
+      {"id":"ELV-009","word":"qhaelis","meaning":"living magical current","register":"ritual"},
+      {"id":"ELV-010","word":"vhaezun","meaning":"foreign contamination; taint","register":"hostile"},
+      {"id":"ELV-011","word":"druveth","meaning":"lower a weapon by command","register":"military"},
+      {"id":"ELV-012","word":"kaeruq","meaning":"follow; proceed under escort","register":"military"},
+      {"id":"ELV-013","word":"zhoriath","meaning":"sovereign council; queen's assembly","register":"court"},
+      {"id":"ELV-014","word":"xhaevor","meaning":"hatred carried across generations","register":"hostile"},
+      {"id":"ELV-015","word":"qelvashi","meaning":"peace preserved through separation","register":"diplomatic"}
+    ],
     "phrases": [],
     "translator": {
-      "common_to_high_elven": {},
-      "high_elven_to_common": {},
-      "notes": "Only confirmed or deliberately introduced mappings should be added here."
+      "common_to_high_elven": {
+        "sovereign authority": "vaelor",
+        "border threshold": "qirath",
+        "exile": "zhavaen",
+        "vanguard commander": "thaeqir",
+        "bloodline": "maeruq",
+        "sacred grove": "selyr",
+        "living magical current": "qhaelis",
+        "contamination": "vhaezun",
+        "follow": "kaeruq"
+      },
+      "high_elven_to_common": {
+        "vaelor": "sovereign authority",
+        "qirath": "border threshold",
+        "zhavaen": "exile",
+        "thaeqir": "vanguard commander",
+        "maeruq": "bloodline",
+        "selyr": "sacred grove",
+        "qhaelis": "living magical current",
+        "vhaezun": "contamination",
+        "kaeruq": "follow"
+      },
+      "notes": "Mappings are deliberately one-to-one where possible so the language can be implemented in a deterministic translator. New phrases should be added with grammatical analysis rather than invented ad hoc."
+    },
+    "manuscript_usage": {
+      "lyra": "Literary competence with rusty spoken fluency. She may pause, search for an inflection, choose an overly formal construction, or correct herself when speaking.",
+      "commander": "Native-level precision. His speech should reflect rank, military discipline, and contempt toward the Valerius bloodline.",
+      "citizens": "Use shorter, colloquial forms and occasional idioms once the casual register is developed."
     }
   }
 }
