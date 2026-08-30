@@ -1,85 +1,22 @@
 {
   "world": {
-    "name": "Aethelgard",
-    "status": "development",
-    "races_and_peoples": [
-      {"id":"RACE-001","name":"Human","category":"humanoid","status":"canon"},
-      {"id":"RACE-002","name":"Elf","category":"humanoid","status":"canon"},
-      {"id":"RACE-003","name":"Dwarf","category":"humanoid","status":"canon"},
-      {"id":"RACE-004","name":"Halfling","category":"humanoid","status":"canon"},
-      {"id":"RACE-005","name":"Tiefling","category":"humanoid","status":"canon"},
-      {"id":"RACE-006","name":"Dragonborn","category":"humanoid","status":"canon"},
-      {"id":"RACE-007","name":"Feline-Kin","category":"humanoid","status":"canon"},
-      {"id":"RACE-008","name":"Gnome","category":"humanoid","status":"development"},
-      {"id":"RACE-009","name":"Orc","category":"humanoid","status":"development"},
-      {"id":"RACE-010","name":"Goblinoid peoples","category":"humanoid","status":"development"},
-      {"id":"RACE-011","name":"Aasimar","category":"humanoid","status":"development"},
-      {"id":"RACE-012","name":"Genasi","category":"elemental-touched humanoid","status":"development"},
-      {"id":"RACE-013","name":"Gith","category":"planar humanoid","status":"development"},
-      {"id":"RACE-014","name":"Drow","category":"elven lineage","status":"development"},
-      {"id":"RACE-015","name":"Firbolg","category":"giant-kin humanoid","status":"development"},
-      {"id":"RACE-016","name":"Kobold","category":"draconic humanoid","status":"development"},
-      {"id":"RACE-017","name":"Kenku","category":"avian humanoid","status":"development"},
-      {"id":"RACE-018","name":"Tabaxi","category":"feline humanoid","status":"development"},
-      {"id":"RACE-019","name":"Tortle","category":"reptilian humanoid","status":"development"},
-      {"id":"RACE-020","name":"Lizardfolk","category":"reptilian humanoid","status":"development"},
-      {"id":"RACE-021","name":"Warforged-like constructs","category":"construct","status":"development"},
-      {"id":"RACE-022","name":"Aarakocra","category":"avian humanoid","status":"development"},
-      {"id":"RACE-023","name":"Triton","category":"aquatic humanoid","status":"development"},
-      {"id":"RACE-024","name":"Yuan-ti peoples","category":"serpentine humanoid","status":"development"},
-      {"id":"RACE-025","name":"Shifter peoples","category":"shapechanging humanoid","status":"development"}
+    "name":"Aethelgard",
+    "status":"development",
+    "catalog_policy":"D&D-inspired taxonomy is used as a reference framework. Aethelgard implementations, names, histories, and descriptions are original and must not be treated as copied setting canon.",
+    "races_and_peoples":[
+      {"id":"RACE-001","name":"Human","category":"humanoid","status":"canon"},{"id":"RACE-002","name":"Elf","category":"humanoid","status":"canon"},{"id":"RACE-003","name":"Dwarf","category":"humanoid","status":"canon"},{"id":"RACE-004","name":"Halfling","category":"humanoid","status":"canon"},{"id":"RACE-005","name":"Tiefling","category":"humanoid","status":"canon"},{"id":"RACE-006","name":"Dragonborn","category":"humanoid","status":"canon"},{"id":"RACE-007","name":"Feline-Kin","category":"humanoid","status":"canon"},
+      {"id":"RACE-008","name":"Gnome","category":"humanoid","status":"development"},{"id":"RACE-009","name":"Orc","category":"humanoid","status":"development"},{"id":"RACE-010","name":"Goblinoid peoples","category":"humanoid","status":"development"},{"id":"RACE-011","name":"Aasimar","category":"humanoid","status":"development"},{"id":"RACE-012","name":"Genasi","category":"elemental-touched humanoid","status":"development"},{"id":"RACE-013","name":"Gith","category":"planar humanoid","status":"development"},{"id":"RACE-014","name":"Drow","category":"elven lineage","status":"development"},{"id":"RACE-015","name":"Firbolg","category":"giant-kin humanoid","status":"development"},{"id":"RACE-016","name":"Kobold","category":"draconic humanoid","status":"development"},{"id":"RACE-017","name":"Kenku","category":"avian humanoid","status":"development"},{"id":"RACE-018","name":"Tabaxi","category":"feline humanoid","status":"development"},{"id":"RACE-019","name":"Tortle","category":"reptilian humanoid","status":"development"},{"id":"RACE-020","name":"Lizardfolk","category":"reptilian humanoid","status":"development"},{"id":"RACE-021","name":"Warforged-like constructs","category":"construct","status":"development"},{"id":"RACE-022","name":"Aarakocra","category":"avian humanoid","status":"development"},{"id":"RACE-023","name":"Triton","category":"aquatic humanoid","status":"development"},{"id":"RACE-024","name":"Yuan-ti peoples","category":"serpentine humanoid","status":"development"},{"id":"RACE-025","name":"Shifter peoples","category":"shapechanging humanoid","status":"development"},{"id":"RACE-026","name":"Goliath","category":"giant-kin humanoid","status":"development"},{"id":"RACE-027","name":"Bugbear","category":"goblinoid","status":"development"},{"id":"RACE-028","name":"Hobgoblin","category":"goblinoid","status":"development"},{"id":"RACE-029","name":"Goblin","category":"goblinoid","status":"development"},{"id":"RACE-030","name":"Kalashtar-like people","category":"psionic humanoid","status":"development"},{"id":"RACE-031","name":"Warlock-touched lineage","category":"magically altered humanoid","status":"development"},{"id":"RACE-032","name":"Dhampir-like lineage","category":"undead-touched humanoid","status":"development"},{"id":"RACE-033","name":"Reborn-like lineage","category":"death-touched humanoid","status":"development"},{"id":"RACE-034","name":"Plasmoid-like people","category":"ooze-adjacent humanoid","status":"development"},{"id":"RACE-035","name":"Astral-touched peoples","category":"planar humanoid","status":"development"}
     ],
-    "creatures": [
-      {"id":"CRE-001","name":"Sky-Fissure Spawn","working_name":true,"status":"development","note":"Working category for the horrifying black creatures emerging from the violet reality fissure; distinct from Skull-Veil elves."},
-      {"id":"CRE-002","name":"Dragon","category":"dragon","status":"development"},
-      {"id":"CRE-003","name":"Aberration","category":"reality-warped creature","status":"development"},
-      {"id":"CRE-004","name":"Elemental","category":"elemental","status":"development"},
-      {"id":"CRE-005","name":"Fey","category":"fey","status":"development"},
-      {"id":"CRE-006","name":"Fiend","category":"fiend","status":"development"},
-      {"id":"CRE-007","name":"Celestial","category":"celestial","status":"development"},
-      {"id":"CRE-008","name":"Undead","category":"undead","status":"development"},
-      {"id":"CRE-009","name":"Construct","category":"construct","status":"development"},
-      {"id":"CRE-010","name":"Giant-kind","category":"giant","status":"development"}
+    "creature_families":[
+      {"id":"FAM-001","name":"Sky-Fissure Spawn","status":"development","note":"Horrifying creatures expelled from the violet reality fissure; distinct from Skull-Veil elves."},{"id":"FAM-002","name":"Dragons","status":"development"},{"id":"FAM-003","name":"Aberrations","status":"development"},{"id":"FAM-004","name":"Elementals","status":"development"},{"id":"FAM-005","name":"Fey","status":"development"},{"id":"FAM-006","name":"Fiends","status":"development"},{"id":"FAM-007","name":"Celestials","status":"development"},{"id":"FAM-008","name":"Undead","status":"development"},{"id":"FAM-009","name":"Constructs","status":"development"},{"id":"FAM-010","name":"Giants","status":"development"},{"id":"FAM-011","name":"Beasts","status":"development"},{"id":"FAM-012","name":"Monstrosities","status":"development"},{"id":"FAM-013","name":"Oozes","status":"development"},{"id":"FAM-014","name":"Plants","status":"development"},{"id":"FAM-015","name":"Swarm creatures","status":"development"},{"id":"FAM-016","name":"Magical hybrids","status":"development"},{"id":"FAM-017","name":"Shapechangers","status":"development"},{"id":"FAM-018","name":"Psionic entities","status":"development"}
     ],
-    "cultures": [
-      {"id":"CUL-001","name":"Kael-Vossen canopy civilization","status":"canon","note":"A protected civilization integrating living redwoods, clean water, magical infrastructure, and horizontal architecture."},
-      {"id":"CUL-002","name":"High-Reach / Spire culture","status":"canon","note":"Vertical imperial society associated with House Valerius, Flux extraction, and centralized power."},
-      {"id":"CUL-003","name":"Silt-Sinks communities","status":"canon","note":"Communities living amid industrial exploitation and environmental degradation."}
+    "creatures":[
+      {"id":"CRE-001","name":"Sky-Fissure Spawn","working_name":true,"status":"development","note":"Working category for the black, spiked creatures emerging from the violet reality fissure."},{"id":"CRE-002","name":"Dragon","category":"dragon","status":"development"},{"id":"CRE-003","name":"Aberration","category":"reality-warped creature","status":"development"},{"id":"CRE-004","name":"Elemental","category":"elemental","status":"development"},{"id":"CRE-005","name":"Fey","category":"fey","status":"development"},{"id":"CRE-006","name":"Fiend","category":"fiend","status":"development"},{"id":"CRE-007","name":"Celestial","category":"celestial","status":"development"},{"id":"CRE-008","name":"Undead","category":"undead","status":"development"},{"id":"CRE-009","name":"Construct","category":"construct","status":"development"},{"id":"CRE-010","name":"Giant-kind","category":"giant","status":"development"},{"id":"CRE-011","name":"Oblex-like ooze","category":"ooze","status":"development"},{"id":"CRE-012","name":"Mimic-like predator","category":"monstrosity","status":"development"},{"id":"CRE-013","name":"Chimera-like hybrid","category":"monstrosity","status":"development"},{"id":"CRE-014","name":"Elemental wraith","category":"elemental/undead","status":"development"},{"id":"CRE-015","name":"Fey guardian","category":"fey","status":"development"},{"id":"CRE-016","name":"Canopy drake","category":"dragon","status":"development"},{"id":"CRE-017","name":"Rootbound sentinel","category":"plant/construct","status":"development"},{"id":"CRE-018","name":"Flux revenant","category":"undead/magical","status":"development"},{"id":"CRE-019","name":"Ley leech","category":"magical parasite","status":"development"},{"id":"CRE-020","name":"Void-touched beast","category":"aberration","status":"development"}
     ],
-    "factions": [
-      {"id":"FAC-001","name":"House Valerius","status":"canon","note":"High-Reach ruling bloodline."},
-      {"id":"FAC-002","name":"Spire","status":"canon","note":"Vertical imperial power structure associated with Flux extraction."},
-      {"id":"FAC-003","name":"Skull-Veil","status":"canon","note":"Nickname for the feared Elven faction; never use this label for the sky-fissure creatures."},
-      {"id":"FAC-004","name":"Silt Guard","status":"canon","note":"Kaelen's military background."},
-      {"id":"FAC-005","name":"Kael-Vossen Assembly","status":"canon","note":"Sovereign governing body of Kael-Vossen."}
-    ],
-    "locations": [
-      {"id":"LOC-001","name":"Aethelgard","type":"world region","status":"canon"},
-      {"id":"LOC-002","name":"High-Reach","type":"royal region","status":"canon"},
-      {"id":"LOC-003","name":"Silt-Sinks","type":"industrial region","status":"canon"},
-      {"id":"LOC-004","name":"Kael-Vossen","type":"protected civilization","status":"canon"},
-      {"id":"LOC-005","name":"The Rusty Tankard","type":"tavern","status":"canon"},
-      {"id":"LOC-006","name":"Silk-Spinner Row","type":"street","status":"canon"},
-      {"id":"LOC-007","name":"The Grand Sovereign Palace","type":"palace","status":"canon"},
-      {"id":"LOC-008","name":"Horizontal Basin","type":"frontier region","status":"canon"},
-      {"id":"LOC-009","name":"The Root-Tap","type":"tavern","status":"canon"}
-    ],
-    "magic_and_technology": [
-      {"id":"TERM-001","term":"Resonance","category":"magic","status":"canon","definition":"Inherited magical capacity associated with specific bloodlines; Abel manifests a rare natural projection ability."},
-      {"id":"TERM-002","term":"Flux","category":"energy","status":"canon","definition":"Magical energy/current used by industrial and technological systems."},
-      {"id":"TERM-003","term":"Ley-Shield","category":"magical infrastructure","status":"canon","definition":"A colossal protective energy barrier surrounding Kael-Vossen."},
-      {"id":"TERM-004","term":"Monolith Stabilization Arrays","category":"magical infrastructure","status":"canon","definition":"Foundational systems associated with stabilizing regional magical and reality currents."},
-      {"id":"TERM-005","term":"Ley-Tech","category":"technology","status":"canon","definition":"Technology designed to conduct, redirect, or manipulate magical currents."},
-      {"id":"TERM-006","term":"Iron-Vein filtration networks","category":"industrial infrastructure","status":"canon","definition":"Filtering systems associated with Flux extraction and environmental exploitation."},
-      {"id":"TERM-007","term":"root-pulse","category":"natural magic","status":"canon","definition":"Living magical current carried through ancient roots and preserved ecosystems."},
-      {"id":"TERM-008","term":"electrokinetic current","category":"energy phenomenon","status":"canon","definition":"Electrical magical current used by certain Elven weapons and systems."}
-    ],
-    "terminology": [
-      {"term":"Silt Guard","definition":"Kaelen's military background and associated force."},
-      {"term":"Spire","definition":"The vertical imperial power structure and its associated society."},
-      {"term":"bloodright","definition":"Inherited political status tied to a ruling bloodline."},
-      {"term":"Ley-Shield","definition":"Kael-Vossen's massive protective barrier."},
-      {"term":"Solis","definition":"Deity referenced by Elara and used in oaths and exclamations."}
-    ]
+    "cultures":[{"id":"CUL-001","name":"Kael-Vossen canopy civilization","status":"canon","note":"Protected civilization integrating living redwoods, clean water, magical infrastructure, and horizontal architecture."},{"id":"CUL-002","name":"High-Reach / Spire culture","status":"canon","note":"Vertical imperial society associated with House Valerius, Flux extraction, and centralized power."},{"id":"CUL-003","name":"Silt-Sinks communities","status":"canon","note":"Communities living amid industrial exploitation and environmental degradation."},{"id":"CUL-004","name":"Canopy Houses","status":"canon","note":"Elven houses whose old political, scholarly, and military traditions survive in Kael-Vossen."},{"id":"CUL-005","name":"Dawn-Growth scholars","status":"development","note":"Scholarly tradition associated with study of living ecosystems and magical growth."}],
+    "factions":[{"id":"FAC-001","name":"House Valerius","status":"canon","note":"High-Reach ruling bloodline."},{"id":"FAC-002","name":"Spire","status":"canon","note":"Vertical imperial power structure associated with Flux extraction."},{"id":"FAC-003","name":"Skull-Veil","status":"canon","note":"Nickname for the feared Elven faction; never use this label for sky-fissure creatures."},{"id":"FAC-004","name":"Silt Guard","status":"canon","note":"Kaelen's military background."},{"id":"FAC-005","name":"Kael-Vossen Assembly","status":"canon","note":"Sovereign governing body of Kael-Vossen."},{"id":"FAC-006","name":"High Council","status":"development","note":"Potential governing and advisory institution; development until established in manuscript."},{"id":"FAC-007","name":"Skull-Veil Vanguard","status":"development","note":"Military arm of the Skull-Veil nickname/faction; distinct from the fissure creatures."}],
+    "locations":[{"id":"LOC-001","name":"Aethelgard","type":"world region","status":"canon"},{"id":"LOC-002","name":"High-Reach","type":"royal region","status":"canon"},{"id":"LOC-003","name":"Silt-Sinks","type":"industrial region","status":"canon"},{"id":"LOC-004","name":"Kael-Vossen","type":"protected civilization","status":"canon"},{"id":"LOC-005","name":"The Rusty Tankard","type":"tavern","status":"canon"},{"id":"LOC-006","name":"Silk-Spinner Row","type":"street","status":"canon"},{"id":"LOC-007","name":"The Grand Sovereign Palace","type":"palace","status":"canon"},{"id":"LOC-008","name":"Horizontal Basin","type":"frontier region","status":"canon"},{"id":"LOC-009","name":"The Root-Tap","type":"tavern","status":"canon"}],
+    "magic_and_technology":[{"id":"TERM-001","term":"Resonance","category":"magic","status":"canon","definition":"Inherited magical capacity associated with specific bloodlines; Abel manifests rare natural projection ability."},{"id":"TERM-002","term":"Flux","category":"energy","status":"canon","definition":"Magical energy/current used by industrial and technological systems."},{"id":"TERM-003","term":"Ley-Shield","category":"magical infrastructure","status":"canon","definition":"Colossal protective energy barrier surrounding Kael-Vossen."},{"id":"TERM-004","term":"Monolith Stabilization Arrays","category":"magical infrastructure","status":"canon","definition":"Foundational systems associated with stabilizing regional magical and reality currents."},{"id":"TERM-005","term":"Ley-Tech","category":"technology","status":"canon","definition":"Technology designed to conduct, redirect, or manipulate magical currents."},{"id":"TERM-006","term":"Iron-Vein filtration networks","category":"industrial infrastructure","status":"canon","definition":"Filtering systems associated with Flux extraction and environmental exploitation."},{"id":"TERM-007","term":"root-pulse","category":"natural magic","status":"canon","definition":"Living magical current carried through ancient roots and preserved ecosystems."},{"id":"TERM-008","term":"electrokinetic current","category":"energy phenomenon","status":"canon","definition":"Electrical magical current used by certain Elven weapons and systems."},{"id":"TERM-009","term":"Ancestral Root","category":"natural magical system","status":"canon","definition":"Ancient foundational root system tied to regional magical stabilization and economic history."},{"id":"TERM-010","term":"Veyrath","category":"language/script","status":"development","definition":"Name of the constructed High Elven writing system."}],
+    "terminology":[{"term":"Silt Guard","definition":"Kaelen's military background and associated force."},{"term":"Spire","definition":"Vertical imperial power structure and its associated society."},{"term":"bloodright","definition":"Inherited political status tied to a ruling bloodline."},{"term":"Ley-Shield","definition":"Kael-Vossen's massive protective barrier."},{"term":"Solis","definition":"Deity referenced by Elara and used in oaths and exclamations."},{"term":"Skull-Veil","definition":"Nickname for the feared Elven faction, not the fissure creatures."},{"term":"Sky-Fissure Spawn","definition":"Temporary database name for the black creatures emerging from the violet reality tear; final species name remains development."},{"term":"root-pulse","definition":"Natural magical energy flowing through living root networks."},{"term":"High Elven","definition":"Constructed Elven language used in Kael-Vossen; formal and regional registers exist."}]
   }
 }
