@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "entries": [
+    {"id":"CHAR-001","name":"Abel Thorne Valerius","species":"Human","role":"banished prince / defector","faction":"House Valerius","canon_status":"canon","notes":"Frost Resonance bloodline; bloodright stripped by King Cassian; seeks to repair the damage caused by the Spire."},
+    {"id":"CHAR-002","name":"Elara Sol-Voss","species":"Human","role":"priestess / street-seer","canon_status":"canon","notes":"Carries a silver icon of Solis; protective of Abel and emotionally affected by threats to him."},
+    {"id":"CHAR-003","name":"Thrum Iron-Marrow","species":"Dwarf","role":"engineer / companion","canon_status":"canon","notes":"Carries a heavy forge wrench; mechanically minded and prone to irreverent humor."},
+    {"id":"CHAR-004","name":"Kaelen Vane-Skar","species":"Dragonborn-like / reptilian humanoid","role":"tracker / warrior","canon_status":"canon","notes":"Amber eyes, scales, war-hammer, Silt Guard heritage; fiercely protective of the group."},
+    {"id":"CHAR-005","name":"Vaelin Kael-Thar","species":"Elf","role":"shadow rogue","canon_status":"canon","notes":"Quiet, observant, tactically minded; connected to a shadow faction harmed by House Valerius."},
+    {"id":"CHAR-006","name":"Lyra Emerald-Weft","species":"Elf","role":"scholar / translator","canon_status":"canon","notes":"Silver-white hair and emerald eyes; learned High Elven from archival texts and treaties but did not grow up speaking it."},
+    {"id":"CHAR-007","name":"Kikiasie","species":"Feline-Kin","role":"scout / companion","canon_status":"canon","notes":"Usually called Kiki; carries the black-scaled archival volume containing crucial coordinates."},
+    {"id":"CHAR-008","name":"Queen Althaea","species":"Elf","role":"sovereign of Kael-Vossen","canon_status":"canon","notes":"Rules from the Grand Sovereign Palace; distrustful of House Valerius but recognizes Abel's unusual Resonance potential."},
+    {"id":"CHAR-009","name":"King Cassian Valerius","species":"Human","role":"king / Spire ruler","faction":"House Valerius","canon_status":"canon","notes":"Abel's father; responsible for the oppressive policies associated with the Spire."},
+    {"id":"CHAR-010","name":"Lady Vivienne Valerius","species":"Human","role":"highborn member of House Valerius","faction":"House Valerius","canon_status":"canon","notes":"Maternal lineage recognized by the Kael-Vossen commander."},
+    {"id":"CHAR-011","name":"King Aldus Valerius","species":"Human","role":"historical king","faction":"House Valerius","canon_status":"canon","notes":"Abel's grandfather; associated with the original expansion and colonial policies that displaced neighboring civilizations."},
+    {"id":"CHAR-012","name":"Malakor","species":"Human","role":"highborn relative / alchemical overseer","faction":"House Valerius","canon_status":"canon","notes":"Placed young Abel into alchemical laboratories after his Resonance manifested."},
+    {"id":"CHAR-013","name":"Kael-Vossen Vanguard Commander","species":"Elf","role":"border commander","faction":"Kael-Vossen","canon_status":"canon","notes":"Holds deep hostility toward House Valerius; recognizes Abel's bloodline and speaks High Elven natively. Name intentionally pending canonical introduction."}
+  ]
+}
