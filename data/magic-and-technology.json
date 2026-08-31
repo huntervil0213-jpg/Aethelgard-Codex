@@ -1,0 +1,16 @@
+{
+  "title": "Magic and Technology",
+  "entries": [
+    {"id":"resonance","name":"Resonance","status":"canon","category":"bloodline_magic","description":"A hereditary magical phenomenon. Abel manifested his Resonance trait at seven winters old and possesses an unusual natural ability to project magic without an artificial focus."},
+    {"id":"frost_magic","name":"Frost Magic","status":"canon","category":"elemental_magic","description":"Abel's manifested magical expression. His control is currently poor; frost can leak through his armor when his control fails."},
+    {"id":"flux","name":"Flux","status":"canon","category":"magical_energy","description":"A powerful energy used throughout Aethelgard, including industrial and alchemical systems. Its exploitation has caused environmental damage."},
+    {"id":"ley_tech","name":"Ley-Tech","status":"canon","category":"magitech","description":"Technology designed to conduct, redirect, measure, or manipulate magical currents."},
+    {"id":"ley_shield","name":"Ley-Shield","status":"canon","category":"defensive_magitech","description":"Kael-Vossen's enormous protective barrier, appearing as a moving iridescent sapphire dome."},
+    {"id":"iron_vein","name":"Iron-Vein Filtration Networks","status":"canon","category":"industrial_magitech","description":"Filtration infrastructure connected to the extraction and management of magical resources."},
+    {"id":"monolith_arrays","name":"Monolith Stabilization Arrays","status":"canon","category":"world_stabilization","description":"Large-scale arrays associated with stabilizing the region and preserving the protected basin. Their foundational coordinates are contained in the stolen archival material."},
+    {"id":"root_pulse","name":"Root-Pulse","status":"canon","category":"natural_magic","description":"Clean energy moving through the living roots and infrastructure of Kael-Vossen."},
+    {"id":"reality_fissure","name":"Reality Fissure","status":"canon","category":"cosmic_anomaly","description":"A violent violet rupture across the sky that is widening and allowing hostile entities to enter the world."},
+    {"id":"spine_whip","name":"Spine-Whip","status":"canon","category":"weapon","description":"A feared weapon associated with the Skull-Veil Inquisitors."},
+    {"id":"bone_alchemy","name":"Bone-Alchemy","status":"canon","category":"elven_technique","description":"An elven discipline that has been distorted by imperial propaganda into monstrous stories about the Skull-Veil."}
+  ]
+}
