@@ -1,0 +1,17 @@
+{
+  "title": "Aethelgard Locations",
+  "entries": [
+    {"id":"high_reach","name":"High-Reach","status":"canon","type":"imperial_center","description":"The elevated political and architectural heart of the Valerius regime, associated with the Spire, royal authority, and elite society."},
+    {"id":"kael_vossen","name":"Kael-Vossen","status":"canon","type":"protected_metropolis","description":"A vast horizontal elven metropolis protected by the Ley-Shield and built into living woodland rather than against it."},
+    {"id":"silt_sinks","name":"Silt-Sinks","status":"canon","type":"industrial_frontier","description":"A polluted and exploited region left damaged by magical extraction and imperial industry."},
+    {"id":"rusty_tankard","name":"The Rusty Tankard","status":"canon","type":"tavern","description":"A location associated with Abel's life after leaving the High-Reach."},
+    {"id":"silk_spinner_row","name":"Silk-Spinner Row","status":"canon","type":"district","description":"A street district containing The Blind Weaver's Loom and The Iron Kettle Kitchen."},
+    {"id":"blind_weavers_loom","name":"The Blind Weaver's Loom","status":"canon","type":"inn_or_business","description":"A business on Silk-Spinner Row."},
+    {"id":"iron_kettle_kitchen","name":"The Iron Kettle Kitchen","status":"canon","type":"food_business","description":"A kitchen on Silk-Spinner Row."},
+    {"id":"root_tap","name":"The Root-Tap","status":"canon","type":"tavern","description":"A tavern within Kael-Vossen's living architecture, used by Thrum and Kaelen as a place to gather information."},
+    {"id":"grand_sovereign_palace","name":"Grand Sovereign Palace","status":"canon","type":"royal_palace","description":"Queen Althaea's palace, grown into an enormous ancient redwood and surrounded by the living infrastructure of Kael-Vossen."},
+    {"id":"ancestral_root","name":"Ancestral Root","status":"canon","type":"magical_ecosystem","description":"A foundational natural power source whose intake and preservation are central to the history of the continent."},
+    {"id":"zul_thar","name":"Zul-Thar Marshlands","status":"canon","type":"marshland","description":"The marsh region tied to Kaelen Vane-Skar's family and Silt Guard history."},
+    {"id":"oakhaven","name":"Oakhaven","status":"canon","type":"settlement","description":"An established location in the wider Aethelgard setting."}
+  ]
+}
