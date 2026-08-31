@@ -1,0 +1,42 @@
+{
+  "atlas": {
+    "name":"Aethelgard Creature Atlas",
+    "status":"development",
+    "classification_policy":"D&D-inspired creature categories are reference scaffolding only. Aethelgard species, variants, ecology, names, behavior, and lore must remain original.",
+    "major_types":[
+      "aberration","beast","celestial","construct","dragon","elemental","fey","fiend","giant","humanoid","monstrosity","ooze","plant","undead"
+    ],
+    "ecological_rules":[
+      "Creatures emerging from the violet reality fissure are not Skull-Veil elves.",
+      "The fissure creatures should retain an immediately frightening identity and should not become harmless merely because the protagonists understand them.",
+      "Creature names must be distinct from faction nicknames.",
+      "Creature behavior should follow established anatomy, magic, habitat, and threat logic once canonized."
+    ],
+    "fissure_spawn_development": {
+      "working_family":"Sky-Fissure Spawn",
+      "final_species_name":"pending canonization",
+      "visual_traits":["living obsidian-ash body","irregular bone crown or spines","fleshless skull-like structure","no visible eyes","enormous serrated crimson maw","violent unstable movement"],
+      "behavior":["predatory","territorial","rapid","drawn toward living targets","capable of coordinated emergence through reality tears"],
+      "threat_profile":["high physical lethality","psychological terror","reality-boundary association","mass-emergence potential"],
+      "separation_rule":"Never label these creatures Skull-Veil. Skull-Veil is an Elven faction nickname in the manuscript."
+    },
+    "creature_record_template": {
+      "required":["id","name","type","status","habitat","appearance","behavior","abilities","threat_level","diet_or_energy_source","weaknesses","language_or_communication","known_encounters"],
+      "optional":["variant_forms","life_cycle","reproduction","social_structure","cultural_significance","loot_or_materials","regional_names"]
+    },
+    "planned_catalogue": [
+      {"family":"Dragons","reference_scope":"chromatic, metallic, gem, ancient and regional variants","aethelgard_status":"development"},
+      {"family":"Aberrations","reference_scope":"reality-warped, psychic, subterranean and fissure-adjacent organisms","aethelgard_status":"development"},
+      {"family":"Fey","reference_scope":"wild spirits, court fey, nature guardians and hostile tricksters","aethelgard_status":"development"},
+      {"family":"Fiends","reference_scope":"infernal, abyssal and corruption-associated entities","aethelgard_status":"development"},
+      {"family":"Celestials","reference_scope":"divine messengers, radiant guardians and ancient beings","aethelgard_status":"development"},
+      {"family":"Undead","reference_scope":"necromantic, revenant, spectral and corpse-bound entities","aethelgard_status":"development"},
+      {"family":"Elementals","reference_scope":"elemental spirits and Flux-altered elemental life","aethelgard_status":"development"},
+      {"family":"Constructs","reference_scope":"Ley-Tech, ancient guardian, industrial and autonomous constructs","aethelgard_status":"development"},
+      {"family":"Giants","reference_scope":"giant-kin cultures and ancient elemental lineages","aethelgard_status":"development"},
+      {"family":"Monstrosities","reference_scope":"magically altered predators and unnatural hybrids","aethelgard_status":"development"},
+      {"family":"Oozes","reference_scope":"alchemical, subterranean and Flux-reactive organisms","aethelgard_status":"development"},
+      {"family":"Plants","reference_scope":"sentient flora, root guardians and magical ecosystems","aethelgard_status":"development"}
+    ]
+  }
+}
