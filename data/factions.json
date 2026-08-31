@@ -1,0 +1,50 @@
+{
+  "title": "Aethelgard Factions",
+  "purpose": "Reference for powers, organizations, houses, military groups, and political forces appearing or planned for the novel.",
+  "entries": [
+    {
+      "id": "house_valerius",
+      "name": "House Valerius",
+      "status": "canon",
+      "type": "imperial_house",
+      "known_members": ["King Cassian Valerius", "Abel Thorne Valerius", "Lady Vivienne Valerius"],
+      "reputation": "A dominant High-Reach bloodline associated with extraction, centralized rule, propaganda, and control of magical infrastructure.",
+      "story_use": "The source of Abel's inherited guilt and the political history driving hostility toward him.",
+      "notes": "Abel rejects the family's authority and has been permanently banished by King Cassian. Lady Vivienne is Abel's mother."
+    },
+    {
+      "id": "skull_veil_inquisitors",
+      "name": "Skull-Veil Inquisitors",
+      "status": "canon",
+      "type": "elven_hunter_order",
+      "reputation": "A feared elven force associated with bone-alchemy, pursuit, imprisonment, and brutal frontier enforcement.",
+      "story_use": "Their reputation should remain frightening. The outcasts should not become comfortable around them merely because individual encounters can vary.",
+      "notes": "Skull-Veil is a nickname for the elves/order, not the name of the fissure creatures."
+    },
+    {
+      "id": "kael_vossen_assembly",
+      "name": "Kael-Vossen Assembly",
+      "status": "canon",
+      "type": "government",
+      "leader": "Queen Althaea",
+      "reputation": "Protective, suspicious, politically sophisticated, and deeply hostile toward House Valerius.",
+      "story_use": "The political authority Abel must face after entering Kael-Vossen."
+    },
+    {
+      "id": "silt_sinks_power_structure",
+      "name": "Silt-Sinks High-Reach Authority",
+      "status": "canon",
+      "type": "imperial_system",
+      "reputation": "A coercive hierarchy built around the Spire, royal authority, extraction, and control of marginalized populations.",
+      "story_use": "Primary political antagonist structure behind the group's flight."
+    },
+    {
+      "id": "silt_guard",
+      "name": "Silt Guard",
+      "status": "canon",
+      "type": "marsh_military",
+      "reputation": "A regional force connected to the Zul-Thar marshlands and Kaelen's family history.",
+      "story_use": "Background for Kaelen Vane-Skar and his inherited loyalties."
+    }
+  ]
+}
