@@ -1,0 +1,32 @@
+{
+  "title":"How I Use the Aethelgard Codex",
+  "purpose":"A practical author reference for turning the Codex into material that actually helps while writing and editing the novel.",
+  "workflow":[
+    {"step":1,"name":"Write the scene","use":"Write normally first. The Codex is a reference, not a script."},
+    {"step":2,"name":"Check characters","use":"Check family, class, race, personality, relationships, orientation, injuries, equipment, and established history before changing a character."},
+    {"step":3,"name":"Check language","use":"Search the language database for an existing word or phrase before inventing a new one. If nothing fits, add a new entry instead of recycling an old word."},
+    {"step":4,"name":"Check world terms","use":"Use the glossary, locations, factions, magic, technology, races, and creature atlas to keep terminology consistent."},
+    {"step":5,"name":"Continuity pass","use":"Compare the scene against canon rules, timeline, family trees, relationships, geography, injuries, equipment, and previous events."},
+    {"step":6,"name":"Editing pass","use":"Only after the scene works should prose, pacing, dialogue, vocabulary, paragraphing, and repetition be polished."}
+  ],
+  "language_rules":[
+    "Prefer established vocabulary when it exists.",
+    "Do not make every invented word share the same syllables or shape.",
+    "Keep the fictional language visibly distinct from Common and ordinary English.",
+    "Keep romanization stable so translator mappings remain usable.",
+    "Record both literal meaning and natural manuscript meaning when they differ.",
+    "Use different registers for court, military, ritual, casual, hostile, and intimate speech.",
+    "Lyra can understand more than she can comfortably speak because she learned the language from texts rather than conversation.",
+    "Do not force language into every sentence; use it where culture, identity, authority, emotion, or communication makes it natural."
+  ],
+  "relationship_rules":[
+    "Canon orientation is separate from speculation.",
+    "Lyra is bisexual.",
+    "Vaelin is gay.",
+    "Abel and Elara are established love interests.",
+    "Friendship, loyalty, protectiveness, and chosen-family bonds are not automatically romantic.",
+    "New romance should add character depth rather than exist only as a label."
+  ],
+  "continuity_priority":["manuscript-established fact","author-stated canon","approved Codex development","unconfirmed possibility"],
+  "editing_warning":"The Codex should make writing easier, not trap the author. If a future manuscript passage establishes a new fact, update the database to match it rather than forcing the manuscript to obey an outdated entry."
+}
