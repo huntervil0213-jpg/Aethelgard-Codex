@@ -1,0 +1,25 @@
+{
+  "translator": "Aethelgard B-Dictionary",
+  "purpose": "deterministic validation for story dialogue",
+  "rules": [
+    "Never silently substitute English/Common words into High Elven.",
+    "Never invent a translation at runtime when a canonical entry is absent.",
+    "Prefer register-specific canonical forms.",
+    "Preserve names exactly unless a canonical endonym exists.",
+    "Permit grammatical particles to be reordered only according to the grammar file.",
+    "Flag ambiguous phrases instead of guessing.",
+    "ASCII-safe output is mandatory for external translator compatibility."
+  ],
+  "test_cases": [
+    {"common":"Follow.","expected_elven":"vhaq.","register":"military"},
+    {"common":"Stop.","expected_elven":"zhur.","register":"military"},
+    {"common":"I am here.","expected_elven":"ae qor.","register":"neutral"},
+    {"common":"You are unwelcome.","expected_elven":"zhu zhurqev.","register":"hostile"},
+    {"common":"Speak the truth.","expected_elven":"ulqen aevqor.","register":"formal"},
+    {"common":"Enemy.","expected_elven":"zhurak.","register":"military"},
+    {"common":"Queen.","expected_elven":"aelqora.","register":"court"},
+    {"common":"Exile.","expected_elven":"vurnaq.","register":"hostile"},
+    {"common":"By the ancient root.","expected_elven":"ulzhaen qyrven.","register":"ritual"}
+  ],
+  "failure_behavior": {"unknown_word":"UNKNOWN", "ambiguous_sentence":"AMBIGUOUS", "invalid_orthography":"INVALID_ORTHOGRAPHY"}
+}
