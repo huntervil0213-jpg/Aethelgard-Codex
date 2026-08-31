@@ -1,18 +1,97 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
+  "purpose": "Character reference for the Aethelgard novel. Canon facts are separated from development material so invented database details do not silently overwrite the manuscript.",
   "entries": [
-    {"id":"CHAR-001","name":"Abel Thorne Valerius","species":"Human","role":"banished prince / defector","faction":"House Valerius","canon_status":"canon","notes":"Frost Resonance bloodline; bloodright stripped by King Cassian; seeks to repair the damage caused by the Spire."},
-    {"id":"CHAR-002","name":"Elara Sol-Voss","species":"Human","role":"priestess / street-seer","canon_status":"canon","notes":"Carries a silver icon of Solis; protective of Abel and emotionally affected by threats to him."},
-    {"id":"CHAR-003","name":"Thrum Iron-Marrow","species":"Dwarf","role":"engineer / companion","canon_status":"canon","notes":"Carries a heavy forge wrench; mechanically minded and prone to irreverent humor."},
-    {"id":"CHAR-004","name":"Kaelen Vane-Skar","species":"Dragonborn-like / reptilian humanoid","role":"tracker / warrior","canon_status":"canon","notes":"Amber eyes, scales, war-hammer, Silt Guard heritage; fiercely protective of the group."},
-    {"id":"CHAR-005","name":"Vaelin Kael-Thar","species":"Elf","role":"shadow rogue","canon_status":"canon","notes":"Quiet, observant, tactically minded; connected to a shadow faction harmed by House Valerius."},
-    {"id":"CHAR-006","name":"Lyra Emerald-Weft","species":"Elf","role":"scholar / translator","canon_status":"canon","notes":"Silver-white hair and emerald eyes; learned High Elven from archival texts and treaties but did not grow up speaking it."},
-    {"id":"CHAR-007","name":"Kikiasie","species":"Feline-Kin","role":"scout / companion","canon_status":"canon","notes":"Usually called Kiki; carries the black-scaled archival volume containing crucial coordinates."},
-    {"id":"CHAR-008","name":"Queen Althaea","species":"Elf","role":"sovereign of Kael-Vossen","canon_status":"canon","notes":"Rules from the Grand Sovereign Palace; distrustful of House Valerius but recognizes Abel's unusual Resonance potential."},
-    {"id":"CHAR-009","name":"King Cassian Valerius","species":"Human","role":"king / Spire ruler","faction":"House Valerius","canon_status":"canon","notes":"Abel's father; responsible for the oppressive policies associated with the Spire."},
-    {"id":"CHAR-010","name":"Lady Vivienne Valerius","species":"Human","role":"highborn member of House Valerius","faction":"House Valerius","canon_status":"canon","notes":"Maternal lineage recognized by the Kael-Vossen commander."},
-    {"id":"CHAR-011","name":"King Aldus Valerius","species":"Human","role":"historical king","faction":"House Valerius","canon_status":"canon","notes":"Abel's grandfather; associated with the original expansion and colonial policies that displaced neighboring civilizations."},
-    {"id":"CHAR-012","name":"Malakor","species":"Human","role":"highborn relative / alchemical overseer","faction":"House Valerius","canon_status":"canon","notes":"Placed young Abel into alchemical laboratories after his Resonance manifested."},
-    {"id":"CHAR-013","name":"Kael-Vossen Vanguard Commander","species":"Elf","role":"border commander","faction":"Kael-Vossen","canon_status":"canon","notes":"Holds deep hostility toward House Valerius; recognizes Abel's bloodline and speaks High Elven natively. Name intentionally pending canonical introduction."}
+    {
+      "id":"CHAR-001","name":"Abel Thorne Valerius","species":"Human","role":"banished prince / defector","faction":"House Valerius","canon_status":"canon",
+      "dnd_profile":{"class":"Sorcerer","subclass":"Draconic Bloodline (Frost/Resonance adaptation)","secondary_fit":["Fighter","Warlock-free narrative only"],"background":"Noble / Exile","alignment_fit":"Lawful Good drifting toward Neutral Good"},
+      "relationships":{"mother":"Lady Vivienne Valerius","father":"King Cassian Valerius","grandfather":"King Aldus Valerius","uncle":"Malakor","love_interest":"Elara Sol-Voss","chosen_family":["Elara Sol-Voss","Thrum Iron-Marrow","Kaelen Vane-Skar","Vaelin Kael-Thar","Lyra Emerald-Weft","Kikiasie"]},
+      "notes":"Frost Resonance bloodline manifested at seven winters; used by House Valerius as an organic energy source; bloodright stripped and permanently banished by King Cassian; carries intense guilt over his family's crimes and refuses the throne. His magic now leaks unpredictably through his armor and he lacks disciplined control.",
+      "development_fields":{"sexual_orientation":"Undeclared in manuscript; do not canonize without author decision","family_depth":"Expanded in 18-FAMILY-TREES.md","combat_role":"frontline arcane controller / defensive striker"}
+    },
+    {
+      "id":"CHAR-002","name":"Elara Sol-Voss","species":"Human","role":"priestess / street-seer","faction":"Solis faith / outcast party","canon_status":"canon",
+      "dnd_profile":{"class":"Cleric","subclass":"Twilight Domain","secondary_fit":["Rogue","Divine Soul Sorcerer"],"background":"Urchin / Acolyte hybrid","alignment_fit":"Chaotic Good"},
+      "relationships":{"love_interest":"Abel Thorne Valerius","chosen_family":["Abel Thorne Valerius","Thrum Iron-Marrow","Kaelen Vane-Skar","Vaelin Kael-Thar","Lyra Emerald-Weft","Kikiasie"]},
+      "notes":"Street-hardened priestess and street-seer; carries a silver icon of Solis. Protective of Abel and increasingly terrified by threats to him. Her faith, practical survival instincts, and emotional loyalty frequently conflict.",
+      "development_fields":{"sexual_orientation":"Undeclared in manuscript; do not canonize without author decision","combat_role":"support cleric / warding / emergency healer"}
+    },
+    {
+      "id":"CHAR-003","name":"Thrum Iron-Marrow","species":"Dwarf","role":"engineer / companion","faction":"Outcast party","canon_status":"canon",
+      "dnd_profile":{"class":"Artificer","subclass":"Battle Smith","secondary_fit":["Forge Cleric","Fighter: Battle Master"],"background":"Guild Artisan / Engineer","alignment_fit":"Chaotic Good"},
+      "relationships":{"chosen_family":["Abel Thorne Valerius","Elara Sol-Voss","Kaelen Vane-Skar","Vaelin Kael-Thar","Lyra Emerald-Weft","Kikiasie"]},
+      "notes":"Brick-red beard, heavy boots, forge wrench, mechanically minded, irreverent and curious. His humor often breaks tension without erasing danger.",
+      "development_fields":{"sexual_orientation":"Undeclared in manuscript; do not canonize without author decision","combat_role":"battlefield engineer / magical machinery specialist"}
+    },
+    {
+      "id":"CHAR-004","name":"Kaelen Vane-Skar","species":"Dragonborn-like / reptilian humanoid","role":"tracker / warrior","faction":"Silt Guard heritage / Outcast party","canon_status":"canon",
+      "dnd_profile":{"class":"Fighter","subclass":"Rune Knight","secondary_fit":["Ranger: Hunter","Barbarian: Path of the Beast"],"background":"Soldier / Guard","alignment_fit":"Neutral Good"},
+      "relationships":{"family_line":"Vane-Skar lineage; see 18-FAMILY-TREES.md","chosen_family":["Abel Thorne Valerius","Elara Sol-Voss","Thrum Iron-Marrow","Vaelin Kael-Thar","Lyra Emerald-Weft","Kikiasie"]},
+      "notes":"Amber eyes, scales, massive frame, war-hammer and Silt Guard heritage. Fiercely protective. His kin were threatened by House Valerius policies, making Abel's choice to oppose the Spire personally significant.",
+      "development_fields":{"sexual_orientation":"Undeclared in manuscript; do not canonize without author decision","combat_role":"frontline defender / tracker / heavy striker"}
+    },
+    {
+      "id":"CHAR-005","name":"Vaelin Kael-Thar","species":"Elf","role":"shadow rogue","faction":"Shadow faction / Outcast party","canon_status":"canon",
+      "dnd_profile":{"class":"Rogue","subclass":"Phantom","secondary_fit":["Ranger: Gloom Stalker","Monk: Way of Shadow"],"background":"Criminal / Shadow operative","alignment_fit":"Neutral"},
+      "relationships":{"lineage":"Kael-Thar shadow lineage; see 18-FAMILY-TREES.md","chosen_family":["Abel Thorne Valerius","Elara Sol-Voss","Thrum Iron-Marrow","Kaelen Vane-Skar","Lyra Emerald-Weft","Kikiasie"]},
+      "notes":"Quiet, observant and tactically minded. His homeland and shadow faction were harmed by House Valerius. He tends to assess escape routes, patrol patterns and political danger before speaking.",
+      "development_fields":{"sexual_orientation":"Undeclared in manuscript; do not canonize without author decision","combat_role":"infiltrator / scout / precision striker"}
+    },
+    {
+      "id":"CHAR-006","name":"Lyra Emerald-Weft","species":"Elf","role":"scholar / translator","faction":"Fallen canopy house","canon_status":"canon",
+      "dnd_profile":{"class":"Wizard","subclass":"Order of Scribes","secondary_fit":["Bard: College of Lore","Rogue: Inquisitive"],"background":"Sage","alignment_fit":"Neutral Good"},
+      "relationships":{"house":"Emerald-Weft","uncle":"unnamed archive-holding uncle","chosen_family":["Abel Thorne Valerius","Elara Sol-Voss","Thrum Iron-Marrow","Kaelen Vane-Skar","Vaelin Kael-Thar","Kikiasie"]},
+      "notes":"Silver-white hair and emerald eyes. Learned High Elven from archival texts and ancient treaties but never used it as a spoken daily language. Her knowledge is literary and formal; when forced to speak it she is cautious, rusty and occasionally searches for the correct construction.",
+      "development_fields":{"sexual_orientation":"Undeclared in manuscript; do not canonize without author decision","combat_role":"lore specialist / ritual scholar / battlefield utility"}
+    },
+    {
+      "id":"CHAR-007","name":"Kikiasie","species":"Feline-Kin","role":"scout / companion","faction":"Outcast party","canon_status":"canon",
+      "dnd_profile":{"class":"Rogue","subclass":"Swashbuckler","secondary_fit":["Bard: College of Swords","Ranger: Beast Master"],"background":"Urchin / Scout","alignment_fit":"Chaotic Good"},
+      "relationships":{"chosen_family":["Abel Thorne Valerius","Elara Sol-Voss","Thrum Iron-Marrow","Kaelen Vane-Skar","Vaelin Kael-Thar","Lyra Emerald-Weft"]},
+      "notes":"Usually called Kiki. Feline-Kin with pointed ears and expressive tail. Carries the black-scaled archival volume containing crucial coordinates. Uses playful sarcasm as both personality and pressure relief.",
+      "development_fields":{"sexual_orientation":"Undeclared in manuscript; do not canonize without author decision","combat_role":"mobile skirmisher / infiltrator / social scout"}
+    },
+    {
+      "id":"CHAR-008","name":"Queen Althaea","species":"Elf","role":"sovereign of Kael-Vossen","faction":"Kael-Vossen","canon_status":"canon",
+      "dnd_profile":{"class":"Druid","subclass":"Circle of Stars","secondary_fit":["Wizard: School of Abjuration","Cleric: Nature/Arcana adaptation"],"background":"Noble / Ancient sovereign","alignment_fit":"Lawful Neutral with protective Good tendencies"},
+      "relationships":{"realm":"Kael-Vossen","political_enemy":"House Valerius","subject_of_training_offer":"Abel Thorne Valerius"},
+      "notes":"Ancient elven sovereign wearing a hollowed dragon skull crown. Initially hostile to Abel and his companions, but recognizes that his Resonance is unusual and offers disciplined frost training after hearing his history.",
+      "development_fields":{"sexual_orientation":"Undeclared in manuscript; do not canonize without author decision","combat_role":"high-level sovereign spellcaster / ward architect"}
+    },
+    {
+      "id":"CHAR-009","name":"King Cassian Valerius","species":"Human","role":"king / Spire ruler","faction":"House Valerius","canon_status":"canon",
+      "dnd_profile":{"class":"Fighter","subclass":"Battle Master","secondary_fit":["Paladin: Oath of Conquest"],"background":"Noble","alignment_fit":"Lawful Evil"},
+      "relationships":{"son":"Abel Thorne Valerius","wife":"Lady Vivienne Valerius","father":"King Aldus Valerius"},
+      "notes":"Abel's father. Stripped Abel of bloodright and permanently banished him. Rules through Spire authority and inherited imperial systems.",
+      "development_fields":{"sexual_orientation":"Undeclared in manuscript; do not canonize without author decision"}
+    },
+    {
+      "id":"CHAR-010","name":"Lady Vivienne Valerius","species":"Human","role":"highborn member of House Valerius","faction":"House Valerius","canon_status":"canon",
+      "dnd_profile":{"class":"Sorcerer","subclass":"Aberrant Mind (developmental fit)","secondary_fit":["Wizard: Divination"],"background":"Noble","alignment_fit":"Undetermined"},
+      "relationships":{"son":"Abel Thorne Valerius","husband":"King Cassian Valerius","lineage":"Valerius maternal branch"},
+      "notes":"Abel's mother. Her lineage is recognized by the Kael-Vossen commander. Her personal history and political role remain partly unrevealed.",
+      "development_fields":{"sexual_orientation":"Undeclared in manuscript; do not canonize without author decision"}
+    },
+    {
+      "id":"CHAR-011","name":"King Aldus Valerius","species":"Human","role":"historical king","faction":"House Valerius","canon_status":"canon",
+      "dnd_profile":{"class":"Wizard","subclass":"School of Enchantment (historical fit)","secondary_fit":["Fighter: Battle Master"],"background":"Noble","alignment_fit":"Lawful Evil"},
+      "relationships":{"grandson":"Abel Thorne Valerius","son":"King Cassian Valerius"},
+      "notes":"Abel's grandfather. Queen Althaea attributes the first major colonial expansion, legal manipulation and displacement of neighboring civilizations to his reign.",
+      "development_fields":{"sexual_orientation":"Undeclared in manuscript; do not canonize without author decision"}
+    },
+    {
+      "id":"CHAR-012","name":"Malakor","species":"Human","role":"highborn relative / alchemical overseer","faction":"House Valerius","canon_status":"canon",
+      "dnd_profile":{"class":"Artificer","subclass":"Alchemist","secondary_fit":["Wizard: School of Transmutation"],"background":"Sage / Noble","alignment_fit":"Lawful Evil"},
+      "relationships":{"nephew_subject":"Abel Thorne Valerius","family":"Valerius"},
+      "notes":"Placed young Abel into alchemical laboratories after his Resonance manifested. Used Ley-Tech conduits and measurements to study the limits of Abel's body.",
+      "development_fields":{"sexual_orientation":"Undeclared in manuscript; do not canonize without author decision"}
+    },
+    {
+      "id":"CHAR-013","name":"Kael-Vossen Vanguard Commander","species":"Elf","role":"border commander","faction":"Kael-Vossen","canon_status":"canon",
+      "dnd_profile":{"class":"Fighter","subclass":"Battle Master","secondary_fit":["Ranger: Gloom Stalker"],"background":"Soldier / Noble guard","alignment_fit":"Lawful Neutral with severe anti-Valerius hostility"},
+      "relationships":{"political_target":"House Valerius","recognizes":"Vivienne Valerius lineage / Abel's bloodline"},
+      "notes":"Native High Elven speaker. Deeply hates House Valerius and regards Abel's companions with suspicion for standing beside him. His restraint is tactical, not friendly. His personal name is intentionally pending canonical introduction.",
+      "development_fields":{"sexual_orientation":"Undeclared in manuscript; do not canonize without author decision","language_role":"native speaker / military register / court register"}
+    }
   ]
 }
