@@ -1,0 +1,17 @@
+{
+  "language_name":"Kharzun",
+  "status":"canonical-foundation",
+  "purpose":"Story-specific Dwarvish for Aethelgard; ASCII-safe and deterministic for external dictionary translators.",
+  "phonotactics":{"allowed_vowels":"a e i o u","common_clusters":"kh, gr, dr, zh, vr, sk, th","avoid":"English/Common-looking spellings"},
+  "grammar":{"word_order":"SOV","plural_suffix":"-im","genitive_suffix":"-ak","imperative_suffix":"-ur","past_marker":"da-","negation":"nul","question_particle":"qa"},
+  "lexicon":{
+    "stone":"garn","mountain":"dhor","forge":"brakka","iron":"zhur","steel":"khar","hammer":"grom","wrench":"drava","fire":"uzh","ash":"vrek","ore":"thal","gold":"orzh","coin":"kesh","beer":"brun","ale":"vrakka","bread":"durn","home":"karum","clan":"zharak","ancestor":"drazh","oath":"khaz","friend":"marn","enemy":"varg","king":"dromak","queen":"dromaka","worker":"garnim","engineer":"brakkar","machine":"thurga","power":"vhal","magic":"aezh","blood":"morz","bone":"krazh","danger":"vurn","death":"zagh","life":"urak","truth":"khazur","lie":"neth","come":"gath","go":"vrah","stop":"zruk","listen":"dakh","speak":"orun","wait":"thalur","protect":"bragh","break":"krun","build":"druv","eat":"durnak","drink":"brunak","damn":"zhak","hells":"uzh-varg","bastard":"varg-drazh","idiot":"grom-nul"},
+  "examples":[
+    {"common":"Stop.","kharzun":"zruk."},
+    {"common":"Come here.","kharzun":"gath qa."},
+    {"common":"Protect the clan.","kharzun":"zharak bragh."},
+    {"common":"By the forge.","kharzun":"brakka-ak."},
+    {"common":"Damn the enemy.","kharzun":"varg zhak."}
+  ],
+  "character_voice":{"Thrum":"uses clipped compounds, forge metaphors, clan oaths, and blunt insults; does not speak polished courtly Kharzun."}
+}
