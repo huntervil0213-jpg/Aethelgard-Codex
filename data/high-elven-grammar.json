@@ -1,0 +1,67 @@
+{
+  "language_id": "aethelgard-high-elven",
+  "name": "High Elven Grammar and Translation Specification",
+  "status": "development",
+  "purpose": "Machine-readable grammar rules for the original Aethelgard High Elven language, supporting a deterministic B-dictionary workflow.",
+  "core_principles": [
+    "Every translated lexical item must have a stable ID.",
+    "Do not infer an unknown word from visual similarity to another word.",
+    "Do not use English/Common-looking roots as approved native vocabulary.",
+    "Native speakers may shorten or omit particles in casual speech; archival-trained speakers retain more explicit morphology.",
+    "Lyra's language is literary and treaty-trained rather than conversationally fluent; her mistakes should be grammatical hesitation, register mismatch, forgotten vocabulary, or overly literal construction rather than random nonsense."
+  ],
+  "sentence_patterns": [
+    {"id":"SYN-001","pattern":"VSO","use":"formal declaration, proclamation, judicial speech"},
+    {"id":"SYN-002","pattern":"VOS","use":"ceremonial or poetic emphasis"},
+    {"id":"SYN-003","pattern":"SVO","use":"common conversational speech"},
+    {"id":"SYN-004","pattern":"Verb + object","use":"military command when subject is obvious"},
+    {"id":"SYN-005","pattern":"Oq + clause","use":"formal question"}
+  ],
+  "morphology": {
+    "aspect": [
+      {"form":"raq","meaning":"completed action","id":"ELV-G01"},
+      {"form":"vesh","meaning":"ongoing action","id":"ELV-G02"},
+      {"form":"thul","meaning":"intended or future action","id":"ELV-G03"}
+    ],
+    "negation": {"form":"zhai","position":"before finite verb","id":"ELV-G04"},
+    "questions": {"formal":"oq","casual":"final -ae","notes":"Formal questions favor explicit status and evidential marking."},
+    "possession": {"linker":"nu","pattern":"possessed noun + nu + possessor"},
+    "plurality": {"collective":"ir","notes":"Counted nouns may remain unmarked."},
+    "second_person": [
+      {"form":"sei","meaning":"respectful second person","register":"court","id":"ELV-G08"},
+      {"form":"dra","meaning":"familiar second person","register":"casual","id":"ELV-G09"}
+    ],
+    "evidentiality": {"form":"qei","meaning":"known by direct witness or established record","register":"scholarly","id":"ELV-G10"}
+  },
+  "registers": {
+    "court": {"features":["titles","explicit evidentiality","complete particles","indirect accusation","status-aware pronouns"]},
+    "military": {"features":["clipped clauses","subject omission","imperatives","formation terminology","threat assessment"]},
+    "diplomatic": {"features":["precise status terms","ritual politeness","conditional statements","oath vocabulary"]},
+    "ritual": {"features":["ancestral terms","parallel phrasing","root and canopy imagery","formal aspect markers"]},
+    "scholarly": {"features":["technical compounds","evidential marker qei","precise causal language"]},
+    "casual": {"features":["particle compression","shortened clauses","familiar second-person marker dra"]},
+    "hostile": {"features":["ancestral grievance terms","blood and contamination metaphors","direct accusations"]},
+    "curse": {"features":["invocations against bloodline, roots, house, memory, or canopy protection"]}
+  },
+  "translation_rules": [
+    {"id":"TR-001","rule":"Common to High Elven must select an exact approved lexical entry where one exists."},
+    {"id":"TR-002","rule":"If no exact entry exists, return UNKNOWN and flag the phrase for lexicon expansion."},
+    {"id":"TR-003","rule":"Do not silently substitute a synonym merely to make a sentence sound fluent."},
+    {"id":"TR-004","rule":"Preserve register; a military command should not be translated into courtly phrasing unless the source explicitly requires it."},
+    {"id":"TR-005","rule":"Names remain unchanged unless the database contains an established native form."},
+    {"id":"TR-006","rule":"Romanization is deterministic and reversible; it is not the in-world Veyrath glyph system."},
+    {"id":"TR-007","rule":"A phrase-level entry overrides word-by-word composition when the phrase has an established idiomatic meaning."}
+  ],
+  "lyra_profile": {
+    "native_language_status":"archival learner",
+    "spoken_fluency":"rusty",
+    "strengths":["treaties","court formulae","historical vocabulary","formal grammar recognition"],
+    "weaknesses":["rapid conversation","slang","regional idioms","military shorthand","spontaneous speaking"],
+    "failure_modes":["pauses before rare words","overly formal constructions","literal translation of idioms","occasional archaic vocabulary when a modern term would be expected","self-correction"],
+    "prohibited_behavior":"Lyra should never suddenly speak flawless colloquial High Elven for an extended exchange without narrative justification."
+  },
+  "native_speaker_profile": {
+    "commander": {"style":"cold military High Elven","features":["clipped commands","status-aware address","ancestral accusations","contempt toward House Valerius"]},
+    "citizens": {"style":"regional conversational Elven","features":["shortened particles","local idioms","fear and disgust vocabulary when addressing or discussing Valerius-affiliated outsiders"]}
+  }
+}
