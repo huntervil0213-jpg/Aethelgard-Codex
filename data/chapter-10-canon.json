@@ -1,0 +1,100 @@
+{
+  "chapter": "10",
+  "status": "canon",
+  "scope": "Material established through the Chapter 10 market, bathhouse return, Abel family flashback, and underground training sequence.",
+  "characters": {
+    "Abel Thorne Valerius": {
+      "role": "protagonist",
+      "age_context": "Eighteen winters old during the flashback; his present age remains twenty-one unless later canon changes it.",
+      "family": {
+        "younger_sister": {
+          "age_during_flashback": 6,
+          "present_age": 11,
+          "moral_alignment": "unknown",
+          "childhood_characterization": "Innocent and deeply impressionable during the flashback; Abel was a model and influential figure in her childhood.",
+          "relationship_status": "She is Abel's sister. The wider company did not know she existed before the flashback because Abel never spoke about her and the company never saw or heard her within the Valerius household shown in earlier material."
+        }
+      },
+      "pre_exile_state": "During the flashback Abel is still recognizably noble. He has not fully rejected his aristocratic identity and has not yet become the hardened exile seen later. He is beginning to rebel internally and uses his position to interfere with abuses when he can.",
+      "guilt": "Abel carries substantial guilt over benefiting from House Valerius while recognizing the suffering created by the system around him. His guilt is personal and active rather than a substitute for agency.",
+      "armor": "His gold-and-obsidian armor was modified to function as a containment lattice for uncontrolled Resonance. Conductive layers distribute magical pressure through the suit rather than allowing dangerous concentrations inside his body. He continued wearing and repairing it after leaving his family because it remained one of the few practical means of containing his unstable magic.",
+      "combat": "Abel is a trained paladin and sorcerer. He already understands swordsmanship, defensive movement, battlefield positioning, and deliberate magical casting. His training with Queen Althaea focuses on changing how he relates to Resonance rather than teaching him basic combat from nothing."
+    },
+    "Elara Sol-Voss": {
+      "role": "protagonist",
+      "relationship_to_abel": "Established love interest and emotionally significant member of his chosen family.",
+      "flashback_connection": "As a seventeen-year-old novice, Elara encountered Abel during his early resistance to abuses in the High-Reach middle districts. Abel intervened when City Watch enforcers attempted to suppress her distribution of food to starving children.",
+      "present_emotional_state": "She recognizes that Abel remembered their earlier encounter years later and carries guilt, concern, affection, and uncertainty about what he feels for her."
+    },
+    "Kikiasie": {
+      "role": "support",
+      "reaction_to_sister_reveal": "The discovery that Abel has a younger sister is genuinely shocking because neither Kiki nor the other companions knew of her existence.",
+      "relationship_to_elara": "Close companion who recognizes Elara's attachment to Abel and can shift from teasing to sincere emotional support."
+    },
+    "Lyra Emerald-Weft": {
+      "role": "support",
+      "language_knowledge": "Academically educated in High Elven through archival texts and treaties rather than regular spoken use. Her speech begins rusty and becomes more fluid as conversation continues.",
+      "market_behavior": "Strong intellectual curiosity toward Kael-Vossen's living architecture, magical infrastructure, markets, Monolith arrays, and local craftsmanship."
+    },
+    "Vaelin Kael-Thar": {
+      "role": "support",
+      "market_behavior": "Maintains tactical awareness while allowing Lyra to investigate the market. He participates in conversation rather than functioning only as silent background, and he remains alert to the hostility directed toward the group."
+    },
+    "Thrum Iron-Marrow": {
+      "role": "support",
+      "present_activity": "Waits at The Root-Tap while Abel is inside the palace. His humor can break tension, but his response to Kaelen's grief demonstrates genuine loyalty and emotional depth."
+    },
+    "Kaelen Vane-Skar": {
+      "role": "support",
+      "present_activity": "Waits at The Root-Tap for Abel's return while carrying unresolved grief over his missing younger brother Jaxon and the burning of his marshland home.",
+      "family_lore": "Jaxon disappeared after their mother pushed the boys into a drainage canal during the burning of their village. Kaelen searched the marshes for three full cycles and never found him. Jaxon's ultimate fate remains unknown."
+    },
+    "Queen Althaea": {
+      "role": "support",
+      "realm": "Kael-Vossen",
+      "relationship_to_abel": "Political authority, mentor, and combat instructor during the underground training sequence.",
+      "training_philosophy": "She distinguishes swordsmanship from magical control and teaches Abel to listen to Resonance rather than treating it as an enemy that must simply be forced into obedience."
+    }
+  },
+  "kael_vossen": {
+    "social_reality": "Kael-Vossen is beautiful, technologically and magically sophisticated, and culturally distinct, but the citizens do not automatically welcome the arriving company.",
+    "hostility": "The group is collectively hated, feared, distrusted, or treated with disgust because they arrived alongside Abel Valerius and are associated with House Valerius. This hostility can be overt or restrained but must remain present unless a specific character has a reason to behave differently.",
+    "market": "The inner market contains living architecture, Ley-light, luminous water, magical plants, enchanted textiles, crystal vessels, merchants, artisans, wardens, and travelers. Lyra uses the market to gather information rather than merely admire it.",
+    "information_gathering": "The company's activity in Kael-Vossen includes seeking useful information from taverns, shops, merchants, and local conversations while trying to avoid drawing unnecessary attention."
+  },
+  "languages": {
+    "general_rule": "Characters do not automatically understand another race's language. Comprehension follows race, upbringing, education, or an explicitly established learned ability.",
+    "high_elven": "A fully translatable original language with distinct vocabulary, grammar, registers, and idiom. Native speakers use it naturally; Lyra understands it academically but begins spoken exchanges rusty and improves as she continues speaking.",
+    "race_distinction": "Human, Elven, Dwarven, Dragonborn, Feline-Kin, and other racial languages remain distinct. A character speaking one does not grant the rest of the party comprehension.",
+    "manuscript_presentation": "Language names appear naturally in the prose or database structure. Bracketed instructional labels are not part of the database or manuscript presentation."
+  },
+  "magic": {
+    "mana": "Mana is the underlying magical current present throughout the world, including the air, living things, soil, Ley-lines, and places saturated by accumulated natural or magical energy.",
+    "spells": "Spells shape mana through structure and intent. Sorcery provides an innate means of imposing magical form, while training determines how reliably that power can be directed.",
+    "resonance": "Resonance is a bloodline-linked way a body responds to magical energy. Abel's Resonance produces powerful frost manifestations but can become unstable under emotional or physical strain.",
+    "resonance_training": "Abel's principal obstacle is not ignorance of magic but his instinct to dominate and suppress his Resonance. Althaea teaches him to perceive and follow the current instead of treating it like an unruly spell.",
+    "mana_metaphor": "Althaea compares mana to water: it responds to pressure, resistance, elevation, and available pathways, and forcing too much energy through a constrained channel can rupture it.",
+    "armor_interaction": "Abel's armor acts as a containment lattice, distributing magical pressure through conductive materials and reducing dangerous concentration within his body."
+  },
+  "tear": {
+    "status": "canon",
+    "nature": "The violet wound in reality is not random and cannot simply be repaired as though it were a physical crack.",
+    "cause": "Someone or something caused the Tear; the exact culprit remains unknown.",
+    "pattern": "Its expansion follows concentrations of magical instability and its disturbances intensify where Ley-lines are already strained.",
+    "creatures": "Creatures have crossed through the Tear and attacked frontier settlements, towns, roads, and watch-posts. Survivors have reported unfamiliar shapes and entities that do not appear to belong naturally to the known world.",
+    "current_status": "The Tear continues to widen. Its full origin, mechanics, and larger implications remain unrevealed."
+  },
+  "training_sequence": {
+    "location": "Underground chamber beneath the Grand Sovereign Palace, carved through living roots and saturated with Ley energy.",
+    "duration": "Abel and Althaea have already been training for hours before the depicted exchange.",
+    "physical_state": "Abel is heavily injured: blood at his mouth and jaw, bruised ribs and body beneath his armor, a dented left pauldron, a damaged cuirass, a broken fastening strap, a trembling forearm, and repeated impacts that leave him exhausted.",
+    "combat_style": "The sequence combines paladin swordsmanship, defensive footwork, physical endurance, controlled frost magic, and Althaea's superior staff work. Abel is competent but is forced to confront habits created by years of controlling unstable Resonance.",
+    "turning_point": "When Abel shouts 'Enough,' he releases a powerful frost burst that changes the exchange. The breakthrough comes later when he stops forcing the Resonance and allows it to move naturally through him and his weapon.",
+    "lesson": "The first meaningful step toward mastery is listening to the magical current rather than attempting to dominate it."
+  },
+  "continuity": {
+    "sister": "The younger sister is now established as eleven years old in the present timeline and six during the flashback. Her morality remains unknown.",
+    "reveal": "The sister's existence is a genuine new revelation to Kiki and the rest of Abel's companions. Abel's earlier silence and the absence of the sister from the household scenes already shown remain important.",
+    "racial_age": "Ages are tracked by race-specific lifespan and maturation rather than assuming equivalent human development across all peoples."
+  }
+}
