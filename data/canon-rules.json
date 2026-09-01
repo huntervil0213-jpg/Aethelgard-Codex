@@ -1,11 +1,11 @@
 {
   "project":"Aethelgard",
   "status":"active",
-  "version":"2.0",
+  "version":"2.1",
   "rules":[
     {"id":1,"name":"Zero Plot Changes","rule":"Preserve plot, lore, reveals, outcomes, and established character identities."},
     {"id":2,"name":"No Unauthorized Cutting","rule":"Do not remove established material simply to simplify a database entry."},
-    {"id":3,"name":"Continuity","rule":"Track time, locations, injuries, equipment, companions, knowledge, relationships, and cause-and-effect."},
+    {"id":3,"name":"Continuity","rule":"Track time, locations, injuries, equipment, companions, knowledge, relationships, ages, race-specific maturation, and cause-and-effect."},
     {"id":4,"name":"Character Integrity","rule":"Preserve established motivations, personality, voice, history, relationships, and emotional continuity."},
     {"id":5,"name":"Human Prose","rule":"Manuscript-facing material should feel authored, varied, emotionally grounded, and natural rather than mechanically generated."},
     {"id":6,"name":"Repetition Control","rule":"Avoid overusing words, sentence structures, transitions, metaphors, and generic labels; replace only when context permits."},
@@ -17,16 +17,23 @@
     {"id":12,"name":"Language Variety","rule":"Do not repeatedly recycle a small set of roots or endings. Vocabulary must become genuinely large and structurally varied."},
     {"id":13,"name":"Language Distinction","rule":"High Elven vocabulary should not sound like ordinary English/Common. Avoid accidental Common-looking words where a distinct form is possible."},
     {"id":14,"name":"Language Frequency","rule":"Use High Elven substantially when Elven speakers naturally would, while preserving reader comprehension through context and selective translation."},
-    {"id":15,"name":"Lyra Fluency","rule":"Lyra learned High Elven through archival texts and treaties but did not grow up speaking it. Her spontaneous speech can show hesitation, uncertainty, and occasional self-correction."},
+    {"id":15,"name":"Lyra Fluency","rule":"Lyra learned High Elven through archival texts and treaties but did not grow up speaking it. Her spontaneous speech can show hesitation, uncertainty, and occasional self-correction, with fluency improving through sustained use."},
     {"id":16,"name":"Native Fluency","rule":"Native Kael-Vossen speakers should use idiom, register, rhythm, and cultural assumptions naturally."},
     {"id":17,"name":"Translator Compatibility","rule":"Every approved vocabulary item receives a stable meaning and translator mapping. Unknown forms are flagged rather than guessed."},
     {"id":18,"name":"Contextual Translation","rule":"Do not translate every Elven sentence mechanically. Meaning may be communicated by action, response, and surrounding dialogue."},
     {"id":19,"name":"Register","rule":"Maintain separate vocabulary and constructions for court, military, diplomatic, ritual, casual, and hostile speech."},
-    {"id":20,"name":"Abel's Bloodline","rule":"House Valerius carries historical responsibility in Kael-Vossen. Hatred and fear toward Abel and his companions must remain believable rather than disappearing immediately."},
+    {"id":20,"name":"Abel's Bloodline","rule":"House Valerius carries historical responsibility in Kael-Vossen. Hatred, disgust, fear, and distrust toward Abel and his companions must remain believable and must not disappear merely because they have entered the city."},
     {"id":21,"name":"Abel's Guilt","rule":"When confronted with the consequences of his family's actions, Abel's guilt should remain emotionally substantial while preserving his individual agency and established character."},
     {"id":22,"name":"Elara's Fear","rule":"Threats to Abel can produce intense concern and panic in Elara when consistent with the scene, without erasing her established strength or agency."},
     {"id":23,"name":"Development Labels","rule":"New material not established by the manuscript is marked development until deliberately canonized."},
-    {"id":24,"name":"No False Canon","rule":"Do not present invented details as established story facts without a canon or development marker."}
+    {"id":24,"name":"No False Canon","rule":"Do not present invented details as established story facts without a canon or development marker."},
+    {"id":25,"name":"Database Voice","rule":"Database entries read as finished reference material. They contain established information, definitions, records, and relationships rather than instructions to an editor, author, or AI."},
+    {"id":26,"name":"No Instructional Labels","rule":"Database content does not use bracketed labels or instructional phrasing such as add, put, place, insert, use this, change this, or remember to."},
+    {"id":27,"name":"Language Comprehension","rule":"A character does not understand another race's language automatically. Comprehension requires race, upbringing, education, or another explicitly established ability."},
+    {"id":28,"name":"Race-Specific Languages","rule":"Racial languages remain distinct systems. Speaking or understanding one does not imply knowledge of another."},
+    {"id":29,"name":"Race-Specific Age","rule":"Character ages and maturity are evaluated according to the character's race and lifespan rather than assuming human-equivalent development."},
+    {"id":30,"name":"Unknown Morality","rule":"A character's moral alignment remains unknown when the manuscript has not established it. Childhood innocence or a close relationship does not determine future allegiance."},
+    {"id":31,"name":"Tear Causality","rule":"The violet Tear is not random. Its cause is deliberate or originates from an unknown agent or force, and its full explanation remains unrevealed until established by the manuscript."}
   ],
-  "editing_checks":["plot integrity","continuity","character voice","emotional continuity","pacing","dialogue","worldbuilding consistency","repetition control","D&D terminology","constructed-language consistency","translator compatibility","canon status"]
+  "editing_checks":["plot integrity","continuity","character voice","emotional continuity","pacing","dialogue","worldbuilding consistency","repetition control","D&D terminology","constructed-language consistency","translator compatibility","canon status","race-specific age","race-specific language comprehension","Tear continuity","database voice"]
 }
